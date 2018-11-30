@@ -1,0 +1,34 @@
+body {
+    background-color: #dddddd;
+}
+nav {
+    background-color: white;
+    width: 960px;
+}
+nav h1 {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 25px;
+    padding: 25px;
+    font-family: 'Georgia', Times, serif;
+}
+.navbar-nav{
+    color: #777777; 
+    font-size: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.container {
+    background-color: white;
+    width: 960px;
+}
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, serif;
+    font-style: bold;
+    font-size: 25px;
+    border-bottom: 20px;
+}
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
