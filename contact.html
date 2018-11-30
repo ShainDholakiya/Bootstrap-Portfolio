@@ -58,26 +58,34 @@
 
                 </div>
 
-                <div class="row">
+                <div class="container2">
 
                     <div class="col-md-12">
 
+                        <div class="form-area">
 
-                        <form>
+                            <form role="form">
 
-                            <label for=“name”>Name</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name"
+                                    required>
 
-                            <br><input type=“text” name=“fullname” id=“form-name” placeholder="John Smith">
+                        </div>
 
-                            <br><label for=“email”>Email</label>
+                        <div class="form-group">
 
-                            <br><input type=“email” name=“email” id=“form-email” placeholder="example@gmail.com">
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Email"
+                                required>
 
-                            <br><label for=“message”>Message</label>
+                        </div>
 
-                            <br><textarea name=“message” id=“form-message”></textarea>
+                        <div class="form-group">
 
-                            <br><button type=“submit”>Submit</button>
+                            <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140"
+                                rows="7"></textarea>
+
+                        </div>
+
+                        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit</button>
 
                         </form>
 
@@ -86,10 +94,6 @@
                 </div>
 
             </div>
-
-        </div>
-
-    </div>
 
 </body>
 
